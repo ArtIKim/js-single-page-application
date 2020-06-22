@@ -1,3 +1,10 @@
 import "../../css/main.css";
+import Router from "../../router/index.routes";
 
-console.log("run dev rt");
+// Listening for hash change
+window.addEventListener("hashchange", () => {
+    const rout = window.location.hash;
+    const router = new Router(rout);
+
+    router.getRoute();
+});
