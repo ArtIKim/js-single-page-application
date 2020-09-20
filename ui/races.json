@@ -1,0 +1,35 @@
+[
+    {
+        "dwarf": [
+            {
+                "traits": [
+                    {
+                        "ability_score_increase": [
+                            {
+                                "CON": "2"
+                            }
+                        ],
+                        "size": "Medium",
+                        "speed": "25",
+                        "languages": [
+                            {
+                                "lang_1": "Common",
+                                "lang_2": "Dwarvish"
+                            }
+                        ]
+                    }
+                ],
+                "abilities": [
+                    {
+                        "ability_1": [
+                            {
+                                "name": "Darkvision",
+                                "description": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

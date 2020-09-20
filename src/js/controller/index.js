@@ -3,8 +3,8 @@ import Router from "../../router/index.routes";
 
 // Listening for hash change
 window.addEventListener("hashchange", () => {
-    const rout = window.location.hash;
-    const router = new Router(rout);
+    const route = window.location.hash;
+    const router = new Router(route);
 
     router.getRoute();
 });
